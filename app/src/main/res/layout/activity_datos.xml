@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a5d2bd"
+    android:orientation="vertical">
+    //PARTE SUPEIOR
+    <TextView
+    android:padding="14dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CALCULO IPCHILE"
+    android:textColor="@android:color/white"
+    android:background="#72b898"
+    android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#111"
+            android:paddingBottom="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diego"
+            android:padding="15dp"
+            android:textColorHint="#505050"
+            android:textColor="@android:color/white"
+            android:hint="Ingresa tu nombre"
+            android:id="@+id/txtNom" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guerrero"
+            android:padding="15dp"
+            android:textColorHint="#505050"
+            android:textColor="@android:color/white"
+            android:hint="Ingresa tu apellido"
+            android:id="@+id/txtApe" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diego.guerro@gmail.com"
+            android:padding="15dp"
+            android:textColorHint="#505050"
+            android:textColor="@android:color/white"
+            android:hint="Ingresa tu correo"
+            android:id="@+id/txtCor" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ACEPTAR"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="#72b898"
+                android:id="@+id/btnIngresar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

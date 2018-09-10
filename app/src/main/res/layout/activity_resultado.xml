@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a5d2bd"
+    android:orientation="vertical">
+    //PARTE SUPEIOR
+    <TextView
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO CALCULO"
+        android:textColor="@android:color/white"
+        android:background="#72b898"
+        android:textSize="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text=""
+                android:textSize="18dp"
+                android:id="@+id/txtReslt" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/conFinal"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:id="@+id/txtFinal"
+                    android:textColorHint="#505050"
+                    android:textColor="@android:color/white"
+                    android:hint="Ingresa nota examen"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CALCULAR"
+                        android:textColor="@android:color/white"
+                        android:textAlignment="center"
+                        android:padding="10dp"
+                        android:background="#72b898"
+                        android:id="@+id/btnFinal" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
